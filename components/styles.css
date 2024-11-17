@@ -1,0 +1,34 @@
+.header {
+    color: white;
+}
+
+.logo {
+    size: 18px;
+    color: #f9faf8;
+
+}
+
+.header {
+    display:flex;
+    justify-content:space-around;
+    padding: 8px;
+    background-color: #1f291f;
+}
+
+.links {
+    /* Spacing */
+    display: flex;
+    list-style-type: none;  /* This gets rid of bullets */
+    padding: 8px;
+    gap: 10px;
+}
+
+.body {
+    display: flex;
+}
+
+.left, .right {
+    display: flex;
+    align-items: center;
+
+}
